@@ -18,6 +18,6 @@ var devision = +prompt('Введите правельный ответ (18 / 3 =
 console.log('Ваш ответ ' + devision + " Правельный ответ " + (18 / 3));
 
 var devisionRemainder = +prompt('Вычислите остаток от деления (20 / 7 = ?');
-console.log( 'Ваш ответ ' + devisionRemainder + ' Правельный ответ ' + (20 / 7));
+console.log( 'Ваш ответ ' + devisionRemainder + ' Правельный ответ ' + (20 % 7));
 
 alert('Откройте console для проверки результата');
